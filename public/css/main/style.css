@@ -1,0 +1,27 @@
+.container {
+  max-width:1400px ;
+}
+
+.container-fluid{
+  background-color: rgb(216, 252, 253);
+  border-radius: 5px;
+}
+
+
+@media (max-width: 600px) {
+    .navbar-collapse .show{
+      display: block !important;
+    }
+
+    .navbar-nav {
+      flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+
+    .navbar-nav .nav-link {
+      padding: 5px 0;
+    }
+  }
